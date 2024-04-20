@@ -18,7 +18,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [frontendmentor.io/solutions/](https://www.frontendmentor.io/solutions/interactive-pricing-component)
+- Solution URL: [https://www.frontendmentor.io/solutions/interactive-pricing-component-using-reactjs](https://www.frontendmentor.io/solutions/interactive-pricing-component-using-reactjs-4hh5uvBWG1)
 
 ## My process
 
@@ -26,6 +26,7 @@ Users should be able to:
 
 - Semantic HTML5 markup
 - Mobile first workflow
+- Custom CSS properties
 - Tailiwnd CSS
 - ReactJS
 
