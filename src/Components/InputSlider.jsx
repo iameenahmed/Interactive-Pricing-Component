@@ -11,8 +11,10 @@ const InputSlider = ({ sliderValue, setSliderValue }) => {
   };
 
   return (
-    <fieldset className="place-content-center md:col-span-full md:row-start-2">
-      <legend className="sr-only">Price range slider</legend>
+    <div className="place-content-center md:col-span-full md:row-start-2">
+      <label htmlFor="price-range-slider" className="sr-only">
+        Price range slider
+      </label>
       <input
         type="range"
         name="price-range-slider"
@@ -23,7 +25,7 @@ const InputSlider = ({ sliderValue, setSliderValue }) => {
         onChange={handleSlider}
         className="h-2 w-full cursor-pointer rounded-full bg-gray-200 outline-none"
       />
-    </fieldset>
+    </div>
   );
 };
 
