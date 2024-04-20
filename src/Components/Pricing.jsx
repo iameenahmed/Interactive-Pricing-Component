@@ -21,7 +21,7 @@ const Pricing = () => {
     : monthlyPrices[sliderValue];
 
   return (
-    <div className="grid gap-y-8 p-4 md:grid-cols-2 md:grid-rows-3 md:px-10">
+    <div className="grid gap-y-8 p-5 md:grid-cols-2 md:grid-rows-3 md:px-12">
       <h2 className="place-content-center text-center font-bold uppercase tracking-widest md:text-start">
         {views}k pageviews
       </h2>
@@ -35,9 +35,9 @@ const Pricing = () => {
         / month
       </p>
 
-      <div className="flex items-center justify-end md:col-span-full">
+      <div className="mt-3.5 flex items-center justify-end text-xs md:col-span-full">
         <ToggleButton isChecked={isChecked} setIsChecked={setIsChecked} />
-        <p className="ms-4 rounded-full bg-LightGrayishRed px-[0.65em] text-LightRed ">
+        <p className="ms-2 rounded-full bg-LightGrayishRed px-[0.65em] text-LightRed md:ms-4 ">
           <span className="hidden min-[440px]:inline-block">25% discount</span>
           <span className="text-xs min-[440px]:hidden" aria-hidden="true">
             -25%

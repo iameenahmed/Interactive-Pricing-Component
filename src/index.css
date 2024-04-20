@@ -7,8 +7,14 @@
     url("./assets/bg-pattern.svg");
   background-repeat: no-repeat no-repeat;
   background-position:
-    center 7vh,
+    center 8.5vh,
     top left;
+}
+
+@media (min-width: 768px) {
+  #App {
+    background-size: auto, contain;
+  }
 }
 
 #price-range-slider {
@@ -29,7 +35,7 @@
   width: 40px;
   background-color: hsl(174, 86%, 45%);
   background-image: url("./assets/icon-slider.svg");
-  background-size: 60% 50%;
+  background-size: 50% 35%;
   background-repeat: no-repeat;
   background-position: center;
   border-radius: 50%;
